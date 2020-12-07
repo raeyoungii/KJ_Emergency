@@ -1,0 +1,102 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Emergency Alert {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        <div class="container-fluid">
+            <ol class="breadcrumb mb-4 mt-4">
+                <li class="breadcrumb-item active">User Status</li>
+            </ol>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="card bg-danger text-white mb-4">
+                        <div class="card-body"> Heart Rate : &nbsp<i class="" id = "heart_rate" style = "font-style:  normal; font-weight:bold"></i>&nbspBPM
+                          <img src="static/assets/img/HeartRate.png"style = " padding-bottom : -5px;margin-top : -5px; width : 35px;float:right" alt=""></div>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="card bg-warning text-white mb-4">
+                        <div class="card-body">Temperature :&nbsp <i class=""id = "temperature" style = "font-style:  normal; font-weight:bold"></i>&nbsp°C
+                          <img src="static/assets/img/Temperature.png"style = " padding-bottom : -5px;margin-top : -5px; width : 35px;float:right" alt=""></div>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="card bg-primary text-white mb-4">
+                        <div class="card-body">Humidity : &nbsp<i class=""id = "humidity" style = "font-style:  normal; font-weight:bold"></i>&nbsp%
+                            <img src="static/assets/img/Humidity.png"style = " padding-bottom : -5px;margin-top : -5px; width : 35px;float:right" alt=""></div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-chart-area mr-1"></i>
+                            HeartRate(Last 1 minute)
+                        </div>
+                        <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-chart-area mr-1"></i>
+                            Temperature(Last 1 minute)
+                        </div>
+                        <div class="card-body"><canvas id="myAreaChart2" width="100%" height="40"></canvas></div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-chart-area mr-1"></i>
+                            Humidity(Last 1 minute)
+                        </div>
+                        <div class="card-body"><canvas id="myAreaChart3" width="100%" height="40"></canvas></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-table mr-1"></i>
+                    User Status
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable2" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Heart_Rate</th>
+                                    <th>Temperature</th>
+                                    <th>Humidity</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="/static/assets/demo/chart-area-demo.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+    <script src="/static/assets/demo/datatables-demo2.js"></script>
+
+{% endblock javascripts %}
