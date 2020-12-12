@@ -6,10 +6,9 @@ $(document).ready(function() {
     dataSrc: ''
   },
     columns: [
-      {data: "Emergency_ID"},
+      {data: "Name"},
       {data: "Time"},
-      {data: "Description"},
-      {data: "Mac_Address"}
+      {data: "Description"}
     ]
   });
 });

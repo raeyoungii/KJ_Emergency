@@ -268,48 +268,37 @@ def send_messages():
 @blueprint.route('/api/emergency/predict/server', methods=['POST'])
 def predict():
     # get data
-    # _time = request.form['time']
-    # _mac = request.form['mac']
-    # _temp = request.form['temp']
-    # _hum = request.form['hum']
-    # _bio = request.form['bio']
-    # _pir = request.form['pir']
-    # _door = request.form['door']
-    # _fire = request.form['fire']
-    # _p_btn = request.form['p_btn']
-    # _in_house = request.form['in_house']
-
-    json_data = request.get_json()
-    _time = json_data.get('time')
-    _mac = json_data.get('mac')
-    _temp = json_data.get('temp')
-    _hum = json_data.get('hum')
-    _bio = json_data.get('bio')
-    _pir = json_data.get('pir')
-    _door = json_data.get('door')
-    _fire = json_data.get('fire')
-    _p_btn = json_data.get('p_btn')
-    _in_house = json_data.get('in_house')
+    _time = request.form['time']
+    _mac = request.form['mac']
+    _temp = request.form['temp']
+    _hum = request.form['hum']
+    _bio = request.form['bio']
+    _pir = request.form['pir']
+    _door = request.form['door']
+    _fire = request.form['fire']
+    _p_btn = request.form['p_btn']
+    _in_house = request.form['in_house']
 
     emergency = False
     result = "Normal"
-
     conn = mysql.connect()
     curs = conn.cursor()
+
+    wake = sleep_wake(curs)
 
     # TODO: emergency predict algorithm
     if int(_in_house) == 1:
         bio_predict1 = complicated_1(curs)
-        bio_predict2 = complicated_2(curs)
+        bio_predict2 = complicated_2(curs, wake)
         if bio_predict1 or bio_predict2:
             emergency = True
             result = "Emergency"
 
-    query = "SELECT User_ID FROM User WHERE MAC_Address = '{}'}".format(_mac)
+    query = "SELECT Name FROM User WHERE MAC_Address = '{}'".format(_mac)
     curs.execute(query)
     user = curs.fetchone()[0]
-    # user = "공예슬"
-    body = "{}님의 집에 고양이가...".format(user)
+    # user = ""
+    body = "{}님: 응급상황 발생".format(user)
 
     # push notifications & send messages
     if emergency:
@@ -333,13 +322,9 @@ def predict():
 @blueprint.route('/api/emergency/predict/android', methods=['POST'])
 def predict_android():
     # get data
-    # _time = request.form['time']
-    # _result = request.form['result']
-    # _mac = request.form['mac']
-    json_data = request.get_json()
-    _time = json_data.get('time')
-    _result = json_data.get('result')
-    _mac = json_data.get('mac')
+    _time = request.form['time']
+    _result = request.form['result']
+    _mac = request.form['mac']
 
     # push notifications & send messages
     emergency_push(_result)
@@ -359,13 +344,9 @@ def predict_android():
 @blueprint.route('/api/emergency/decision', methods=['POST'])
 def predict_decision():
     # get data
-    # _time = request.form['time']
-    # _result = request.form['result']
-    # _mac = request.form['mac']
-    json_data = request.get_json()
-    _time = json_data.get('time')
-    _result = json_data.get('result')
-    _mac = json_data.get('mac')
+    _time = request.form['time']
+    _result = request.form['result']
+    _mac = request.form['mac']
 
     # push notifications & send messages
     emergency_push(_result)
@@ -386,24 +367,33 @@ def emergency_push(body):
     push_url = base_url + "/admin-api/trigger-push-notifications"
     requests.post(url=push_url, data=json.dumps(
         {"title": "응급상황이 발생했습니다.", "body": body}))
-    send_url = base_url + "/admin-api/send-messages"
-    requests.post(url=send_url, data=json.dumps(
-        {"title": "응급상황이 발생했습니다.", "body": body}))
+    # send_url = base_url + "/admin-api/send-messages"
+    # requests.post(url=send_url, data=json.dumps(
+    #     {"title": "응급상황이 발생했습니다.", "body": str(body)}))
 
 
-# TODO: 취침 기준 바꿔야됨
+def pir_0(pir_arr):
+    cnt = 0
+    for pir in pir_arr:
+        if pir != 0:
+            cnt += 1
+    return cnt
+
+
 def sleep_wake(curs):
     curs.execute(
-        "SELECT Heart_Rate, PIR_Sensor FROM Sensor_Data ORDER BY Sensor_Sequence DESC limit 20")
+        "SELECT Heart_Rate, PIR_Sensor FROM Sensor_Data ORDER BY Sensor_Sequence DESC limit 130")
     rows = curs.fetchall()
     show_sleep = [row[0] for row in rows]
-    show_pir = [row[1] for row in rows]
-    avg_sleep = sum(show_sleep)//len(show_sleep)
+    collect_pir = [row[1] for row in rows]
 
-    if 40 <= avg_sleep <= 80 and show_pir.count(0) >= 18:
-        return False
-    elif 40 <= avg_sleep <= 80 and show_pir.count(0) < 18:
+    # 대략 20분정도동안 132개의 pir값을 받는다. 132개가 모두 0이면 0, 0이 아닌숫자가 있으면 그걸 추가
+    pir_cnt = pir_0(collect_pir)
+    avg_sleep = sum(show_sleep)/len(show_sleep)
+    if 40 <= avg_sleep <= 80 and not pir_cnt == 0:
         return True
+    elif 40 <= avg_sleep <= 80 and pir_cnt > 1:
+        return False
 
 
 def complicated_1(curs):  # 집에 사람이 있는데 평균보다 심박수가 확느려지거나 빨리 뛸 때 위험예측
@@ -414,7 +404,7 @@ def complicated_1(curs):  # 집에 사람이 있는데 평균보다 심박수가
         "SELECT Heart_Rate FROM Sensor_Data ORDER BY Sensor_Sequence DESC limit 6")
     rows = curs.fetchall()
     show_heart = [row[0] for row in rows]
-    if min(show_heart) <= bio_avg - 15 or max(show_heart) >= bio_avg + 15:
+    if 0 < min(show_heart) <= bio_avg - 15 or max(show_heart) >= bio_avg + 15:
         return True
     return False
 
@@ -432,7 +422,7 @@ def complicated_2(curs, wake):  # 취침시간인데 비정상적 심박수 + �
     rows = curs.fetchall()
     show_heart = [row[0] for row in rows]
     for heart in show_heart:
-        if heart <= low_bpm or 80 <= heart:
+        if 0 < heart <= low_bpm or 80 <= heart:
             count += 1
     if count >= 2:
         return True

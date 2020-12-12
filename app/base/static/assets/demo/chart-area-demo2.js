@@ -2,6 +2,19 @@
 Chart.defaults.global.defaultFontFamily = '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
 Chart.defaults.global.defaultFontColor = '#292b2c';
 $(document).ready(function () {
+  var str1 = document.getElementById("heart_rate");
+  var str2 = document.getElementById("temperature");
+  var str3 = document.getElementById("humidity");
+
+  var ctx1 = document.getElementById("myAreaChart");
+  var myLineChart1;
+
+  var ctx2 = document.getElementById("myAreaChart2");
+  var myLineChart2;
+  
+  var ctx3 = document.getElementById("myAreaChart3");
+  var myLineChart3;
+
   $.ajax({
       url: "/admin-api/get-graph-data",
       type: "GET",
@@ -14,17 +27,11 @@ $(document).ready(function () {
             temperature.push(data[i].Temperature);
             humidity.push(data[i].Humidity);
           }
-          var str1 = document.getElementById("heart_rate");
           str1.innerHTML = heart_rate[0];
-
-          var str2 = document.getElementById("temperature");
           str2.innerHTML = temperature[0];
-
-          var str3 = document.getElementById("humidity");
           str3.innerHTML = humidity[0];
 
-          var ctx1 = document.getElementById("myAreaChart");
-          var myLineChart1 = new Chart(ctx1, {
+          myLineChart1 = new Chart(ctx1, {
             type: 'line',
             data: {
               labels: ["-50 sec","-40 sec","-30 sec","-20 sec","-10 sec","Present"],
@@ -46,6 +53,7 @@ $(document).ready(function () {
               }],
             },
             options: {
+              animation: false,
               scales: {
                 xAxes: [{
                   time: {
@@ -74,8 +82,8 @@ $(document).ready(function () {
               }
             }
           });
-          var ctx2 = document.getElementById("myAreaChart2");
-          var myLineChart2 = new Chart(ctx2, {
+          
+          myLineChart2 = new Chart(ctx2, {
             type: 'line',
             data: {
               labels: ["-50 sec","-40 sec","-30 sec","-20 sec","-10 sec","Present"],
@@ -97,6 +105,7 @@ $(document).ready(function () {
               }],
             },
             options: {
+              animation: false,
               scales: {
                 xAxes: [{
                   time: {
@@ -125,8 +134,8 @@ $(document).ready(function () {
               }
             }
           });
-          var ctx3 = document.getElementById("myAreaChart3");
-          var myLineChart3 = new Chart(ctx3, {
+          
+          myLineChart3 = new Chart(ctx3, {
             type: 'line',
             data: {
               labels: ["-50 sec","-40 sec","-30 sec","-20 sec","-10 sec","Present"],
@@ -148,6 +157,7 @@ $(document).ready(function () {
               }],
             },
             options: {
+              animation: false,
               scales: {
                 xAxes: [{
                   time: {
@@ -180,4 +190,38 @@ $(document).ready(function () {
         error: function (data) {
         }
     });
+
+    var getData = function() {
+      $.ajax({
+        url: "/admin-api/get-graph-data",
+        type: "GET",
+        success: function (data) {
+            var heart_rate = [];
+            var temperature = [];
+            var humidity = [];
+            for (var i in data) {
+              heart_rate.push(data[i].Heart_Rate);
+              temperature.push(data[i].Temperature);
+              humidity.push(data[i].Humidity);
+            }
+            str1.innerHTML = heart_rate[0];
+            str2.innerHTML = temperature[0];
+            str3.innerHTML = humidity[0];
+
+            myLineChart1.data.datasets[0].data = heart_rate.reverse();
+            myLineChart1.update();
+
+            myLineChart2.data.datasets[0].data = temperature.reverse();
+            myLineChart2.update();
+
+            myLineChart3.data.datasets[0].data = humidity.reverse();
+            myLineChart3.update();
+          },
+          error: function (data) {
+          }
+      });
+    }
+    
+    setInterval(getData, 10000);
 });
+
