@@ -19,8 +19,8 @@ login_manager = LoginManager()
 def register_extensions(app):
     app.config['MYSQL_DATABASE_HOST'] = '127.0.0.1'
     app.config['MYSQL_DATABASE_USER'] = 'root'
-    app.config['MYSQL_DATABASE_PASSWORD'] = '1111'
-    app.config['MYSQL_DATABASE_DB'] = 'healthcare'
+    app.config['MYSQL_DATABASE_PASSWORD'] = 'password'
+    app.config['MYSQL_DATABASE_DB'] = 'db_name'
     mysql.init_app(app)
     db.init_app(app)
     login_manager.init_app(app)
