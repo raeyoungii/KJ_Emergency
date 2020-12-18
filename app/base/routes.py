@@ -298,7 +298,7 @@ def predict():
 
     print("inHouse = " + str_inHouse + ", sleepWake = " + str_sw)
 
-    # TODO: emergency predict algorithm
+    # emergency predict algorithm
     if int(_in_house) == 1:
         bio_predict1 = complicated_1(curs)
         bio_predict2 = complicated_2(curs, sw)
@@ -306,7 +306,6 @@ def predict():
             emergency = True
             result = "Emergency"
 
-    # TODO: 응급상황일때만 body 생성
     query = "SELECT Name FROM User WHERE MAC_Address = '{}'".format(_mac)
     curs.execute(query)
     user = curs.fetchone()[0]
