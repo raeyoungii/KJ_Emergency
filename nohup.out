@@ -25311,3 +25311,659 @@ IndentationError: unexpected indent
 127.0.0.1 - - [13/Dec/2020 03:25:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
 175.197.111.51 - - [13/Dec/2020 03:25:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
 127.0.0.1 - - [13/Dec/2020 03:25:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:26:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:26:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:26:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:26:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:26:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:26:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:26:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:26:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:26:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:26:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:26:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:26:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:27:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:27:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:27:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:27:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:27:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:27:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:27:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:27:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:27:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:27:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:27:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:28:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:28:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:28:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:28:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:28:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:28:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:28:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:28:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:28:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:28:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:28:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:29:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:29:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:29:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:29:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:29:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:29:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:29:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:29:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:29:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:29:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:29:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:29:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:30:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:30:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:27] "[37mGET /tables HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:27] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:28] "[37mGET /static/assets/img/favicon-16x16.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:28] "[37mGET /admin-api/get-table-data?_=1607797827876 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:28] "[37mPOST /admin-api/push-subscriptions HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[32mGET / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[32mGET /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[37mGET /index HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[37mGET /admin-api/get-table-data-2?_=1607797832238 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:32] "[37mPOST /admin-api/push-subscriptions HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:30:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:42] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:30:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:30:52] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:30:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:31:02] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:31:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:31:12] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:31:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:31:22] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:31:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:31:32] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:31:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:31:42] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:31:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:31:52] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:31:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:32:02] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:32:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:32:12] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:32:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:32:22] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:32:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:32:32] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:32:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:32:42] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:32:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:32:52] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:32:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:02] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:33:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:12] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:33:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:22] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:33:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:32] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:33:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /index HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[36mGET /static/register_service_worker.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/img/Temperature.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/img/apple-touch-icon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/img/Alert.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/img/Humidity.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/img/HeartRate.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /static/assets/img/Profile_2.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mGET /admin-api/get-table-data-2?_=1607798014309 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:34] "[37mPOST /admin-api/push-subscriptions HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:35] "[37mGET /tables HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:35] "[37mGET /static/assets/demo/datatables-demo.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:35] "[37mGET /admin-api/get-table-data?_=1607798015504 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:35] "[37mPOST /admin-api/push-subscriptions HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:36] "[32mGET / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Dec/2020 03:33:36] "[32mGET /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Dec/2020 03:33:36] "[37mGET /index HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:36] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:37] "[37mGET /admin-api/get-table-data-2?_=1607798016781 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Dec/2020 03:33:37] "[37mPOST /admin-api/push-subscriptions HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:33:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:33:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:34:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:34:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:34:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:34:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:34:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:34:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:35:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:35:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:35:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:35:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:35:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:35:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:36:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:36:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:36:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:36:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:36:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:36:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:37:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:37:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:37:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:37:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:37:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:37:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:38:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:38:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:38:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:38:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:38:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:38:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:39:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:39:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:39:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:39:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:39:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:39:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:40:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:40:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:40:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:40:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:40:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:40:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:41:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:41:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:41:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:41:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:41:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:41:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:42:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:42:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:42:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:42:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:42:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:43:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:43:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:43:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:43:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:43:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:43:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:44:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:44:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:44:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:44:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:44:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:44:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:45:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:45:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:45:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:45:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:45:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:45:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:46:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:46:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:46:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:46:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:46:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:46:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:47:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:47:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:47:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:47:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:47:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:47:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:48:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:48:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:48:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:48:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:48:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:48:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:49:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:49:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:49:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:49:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:49:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:50:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:50:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:50:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:50:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:50:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:50:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:51:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:51:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:51:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:51:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:51:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:52:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:52:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:52:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:52:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:52:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:52:52] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:53:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:53:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:53:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:53:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:53:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:53:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:54:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:54:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:54:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:54:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:54:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:54:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:55:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:55:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:55:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:55:33] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:55:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:55:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:56:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:56:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:56:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:56:43] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:56:53] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:57:03] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:57:13] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:57:23] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:57:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:57:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:58:05] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:58:15] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:58:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:58:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:58:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:59:05] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:59:15] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:59:24] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:59:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:59:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 03:59:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:00:05] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:00:15] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:00:24] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:00:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:00:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:00:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:01:05] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:01:25] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:01:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:01:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:01:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:02:05] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:02:14] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:02:25] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:02:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:02:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:02:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:03:05] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:03:14] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:03:25] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:03:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:03:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:03:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:04:05] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:04:15] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:04:25] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:04:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:04:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:04:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:05:04] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:05:15] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:05:25] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:05:35] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:05:45] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:05:55] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[32mGET / HTTP/1.1[0m" 302 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[32mGET /login HTTP/1.1[0m" 302 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /index HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/img/Alert.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/img/Profile_2.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/img/HeartRate.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/img/apple-touch-icon.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/img/Temperature.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/img/Humidity.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:10] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:12] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:09:12] "[37mGET /admin-api/get-table-data-2?_=1607800152334 HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:12:27] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:12:49] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:15] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:25] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:47] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[32mGET / HTTP/1.1[0m" 302 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[32mGET /login HTTP/1.1[0m" 302 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[37mGET /index HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[37mGET /static/assets/img/apple-touch-icon.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[37mGET /static/assets/img/Profile_2.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:55] "[37mGET /static/assets/img/Alert.png HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:57] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:57] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:13:57] "[37mGET /admin-api/get-table-data-2?_=1607800436096 HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:07] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:07] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:17] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:17] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:27] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:27] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:37] "[37mPOST /api/emergency/predict/server HTTP/1.1[0m" 200 -
+175.197.111.51 - - [13/Dec/2020 04:14:37] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:13] "[32mGET / HTTP/1.1[0m" 302 -
+211.216.26.118 - - [13/Dec/2020 19:12:14] "[37mGET /login HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:14] "[37mGET /static/assets/css/styles.css HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:14] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:15] "[37mGET /static/assets/img/favicon-32x32.png HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:15] "[37mGET /static/assets/img/apple-touch-icon.png HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:20] "[37mGET /register HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:45] "[37mPOST /register HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:50] "[37mGET /login HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:12:55] "[37mGET /register HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:02] "[37mPOST /register HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:04] "[37mGET /login HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[32mGET / HTTP/1.1[0m" 302 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[32mGET /login HTTP/1.1[0m" 302 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /index HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/register_service_worker.js HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/assets/img/Profile_2.png HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/assets/img/Alert.png HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/assets/img/HeartRate.png HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/assets/img/Temperature.png HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /static/assets/img/Humidity.png HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:08] "[37mGET /admin-api/get-table-data-2?_=1607854387705 HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:13:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:14:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:14:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:14:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:14:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:14:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:14:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:15:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:15:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:15:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:15:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:15:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:15:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:16:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:16:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:16:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:16:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:16:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:16:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:17:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:17:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:17:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:17:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:17:49] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:17:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:18:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:18:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:18:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:18:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:18:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:18:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:19:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:19:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:19:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:19:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:19:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:19:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:20:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:20:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:20:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:20:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:20:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:20:58] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:21:08] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:21:18] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:21:28] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+211.216.26.118 - - [13/Dec/2020 19:21:38] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+ * Detected change in '/home/woongsup/RY/KJ_Emergency/app/base/routes.py', reloading
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 102-070-036
+ * Detected change in '/home/woongsup/RY/KJ_Emergency/app/base/routes.py', reloading
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 210-264-187
+ * Detected change in '/home/woongsup/RY/KJ_Emergency/app/base/routes.py', reloading
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 330-238-976
+ * Detected change in '/home/woongsup/RY/KJ_Emergency/app/base/routes.py', reloading
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 240-143-698
+ * Detected change in '/home/woongsup/RY/KJ_Emergency/app/base/routes.py', reloading
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 115-448-011
+210.94.220.226 - - [15/Dec/2020 14:04:28] "[35m[1mPOST /api/emergency/predict/server HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/woongsup/RY/KJ_Emergency/app/base/routes.py", line 287, in predict
+    sleep_wake = sleep_wake(curs)
+UnboundLocalError: local variable 'sleep_wake' referenced before assignment
+210.94.220.226 - - [15/Dec/2020 14:05:49] "[35m[1mPOST /api/emergency/predict/server HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/woongsup/RY/KJ_Emergency/app/base/routes.py", line 287, in predict
+    sleep_wake = sleep_wake(curs)
+UnboundLocalError: local variable 'sleep_wake' referenced before assignment
+210.94.220.226 - - [15/Dec/2020 14:11:51] "[35m[1mPOST /api/emergency/predict/server HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/woongsup/RY/KJ_Emergency/app/base/routes.py", line 287, in predict
+    sleep_wake = sleep_wake(curs)
+UnboundLocalError: local variable 'sleep_wake' referenced before assignment
+210.94.220.226 - - [15/Dec/2020 14:12:17] "[35m[1mPOST /api/emergency/predict/server HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/woongsup/RY/KJ_Emergency/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/woongsup/RY/KJ_Emergency/app/base/routes.py", line 287, in predict
+    sleep_wake = sleep_wake(curs)
+UnboundLocalError: local variable 'sleep_wake' referenced before assignment
+210.94.185.31 - - [15/Dec/2020 14:12:43] "[32mGET / HTTP/1.1[0m" 302 -
+210.94.185.31 - - [15/Dec/2020 14:12:43] "[32mGET /login HTTP/1.1[0m" 302 -
+210.94.185.31 - - [15/Dec/2020 14:12:43] "[37mGET /index HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:45] "[37mGET /static/assets/css/styles.css HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:45] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:45] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:45] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:45] "[36mGET /static/register_service_worker.js HTTP/1.1[0m" 304 -
+210.94.185.31 - - [15/Dec/2020 14:12:46] "[37mGET /static/assets/img/Profile_2.png HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:46] "[37mGET /static/assets/img/HeartRate.png HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:46] "[37mGET /static/assets/img/apple-touch-icon.png HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:46] "[37mGET /static/assets/img/Alert.png HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:46] "[37mGET /static/assets/img/Temperature.png HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:46] "[37mGET /static/assets/img/Humidity.png HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:47] "[37mGET /static/assets/img/favicon-32x32.png HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:47] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+210.94.185.31 - - [15/Dec/2020 14:12:47] "[37mGET /admin-api/get-table-data-2?_=1608009165169 HTTP/1.1[0m" 200 -
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:10027/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 126-612-275
+74.120.14.39 - - [16/Dec/2020 13:37:12] "[32mGET / HTTP/1.1[0m" 302 -
+74.120.14.39 - - [16/Dec/2020 13:37:13] "[37mGET /login HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:15] "[32mGET / HTTP/1.1[0m" 302 -
+210.121.210.232 - - [16/Dec/2020 23:23:15] "[32mGET /login HTTP/1.1[0m" 302 -
+210.121.210.232 - - [16/Dec/2020 23:23:15] "[37mGET /index HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/css/styles.css HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[36mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 304 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[36mGET /static/register_service_worker.js HTTP/1.1[0m" 304 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/img/Humidity.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/img/Profile_2.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/img/Alert.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/img/Temperature.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/img/HeartRate.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:16] "[37mGET /static/assets/img/apple-touch-icon.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:17] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:17] "[37mGET /admin-api/get-table-data-2?_=1608128595342 HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:17] "[37mGET /static/assets/img/favicon-16x16.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:27] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:51] "[32mGET / HTTP/1.1[0m" 302 -
+210.121.210.232 - - [16/Dec/2020 23:23:51] "[37mGET /login HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:52] "[37mGET /static/assets/css/styles.css HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:52] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:52] "[37mGET /static/assets/img/favicon-32x32.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:53] "[37mGET /static/assets/img/favicon-16x16.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:23:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+210.121.210.232 - - [16/Dec/2020 23:23:59] "[32mGET / HTTP/1.1[0m" 302 -
+210.121.210.232 - - [16/Dec/2020 23:23:59] "[32mGET /login HTTP/1.1[0m" 302 -
+210.121.210.232 - - [16/Dec/2020 23:23:59] "[37mGET /index HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/img/apple-touch-icon.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/demo/datatables-demo2.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/register_service_worker.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/img/Profile_2.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/img/HeartRate.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/img/Alert.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/img/Temperature.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /static/assets/img/Humidity.png HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:00] "[37mGET /admin-api/get-table-data-2?_=1608128638724 HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:13] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:20] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:29] "[37mGET /static/assets/js/scripts.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+210.121.210.232 - - [16/Dec/2020 23:24:38] "[37mGET /admin-api/get-table-data-2?_=1608128676585 HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:48] "[37mGET /admin-api/get-graph-data HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:24:51] "[37mGET /static/assets/demo/chart-area-demo2.js HTTP/1.1[0m" 200 -
+210.121.210.232 - - [16/Dec/2020 23:25:11] "[37mGET /admin-api/get-table-data-2?_=1608128710014 HTTP/1.1[0m" 200 -
+Traceback (most recent call last):
+  File "run.py", line 6, in <module>
+    from flask_migrate import Migrate
+ImportError: No module named flask_migrate
+Traceback (most recent call last):
+  File "run.py", line 6, in <module>
+    from flask_migrate import Migrate
+ImportError: No module named flask_migrate
+Traceback (most recent call last):
+  File "run.py", line 6, in <module>
+    from flask_migrate import Migrate
+ModuleNotFoundError: No module named 'flask_migrate'
+Traceback (most recent call last):
+  File "run.py", line 6, in <module>
+    from flask_migrate import Migrate
+ModuleNotFoundError: No module named 'flask_migrate'
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:10027/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 103-043-228

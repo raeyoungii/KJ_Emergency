@@ -284,16 +284,29 @@ def predict():
     conn = mysql.connect()
     curs = conn.cursor()
 
-    wake = sleep_wake(curs)
+    sw = sleep_wake(curs)
+
+    if int(_in_house) == 1:
+        str_inHouse = "in"
+    else:
+        str_inHouse = "out"
+
+    if sw:
+        str_sw = "sleep"
+    else:
+        str_sw = "wake"
+
+    print("inHouse = " + str_inHouse + ", sleepWake = " + str_sw)
 
     # TODO: emergency predict algorithm
     if int(_in_house) == 1:
         bio_predict1 = complicated_1(curs)
-        bio_predict2 = complicated_2(curs, wake)
+        bio_predict2 = complicated_2(curs, sw)
         if bio_predict1 or bio_predict2:
             emergency = True
             result = "Emergency"
 
+    # TODO: 응급상황일때만 body 생성
     query = "SELECT Name FROM User WHERE MAC_Address = '{}'".format(_mac)
     curs.execute(query)
     user = curs.fetchone()[0]
@@ -367,9 +380,9 @@ def emergency_push(body):
     push_url = base_url + "/admin-api/trigger-push-notifications"
     requests.post(url=push_url, data=json.dumps(
         {"title": "응급상황이 발생했습니다.", "body": body}))
-    # send_url = base_url + "/admin-api/send-messages"
-    # requests.post(url=send_url, data=json.dumps(
-    #     {"title": "응급상황이 발생했습니다.", "body": str(body)}))
+    send_url = base_url + "/admin-api/send-messages"
+    requests.post(url=send_url, data=json.dumps(
+        {"title": "응급상황이 발생했습니다.", "body": str(body)}))
 
 
 def pir_0(pir_arr):
@@ -390,10 +403,9 @@ def sleep_wake(curs):
     # 대략 20분정도동안 132개의 pir값을 받는다. 132개가 모두 0이면 0, 0이 아닌숫자가 있으면 그걸 추가
     pir_cnt = pir_0(collect_pir)
     avg_sleep = sum(show_sleep)/len(show_sleep)
-    if 40 <= avg_sleep <= 80 and not pir_cnt == 0:
+    if 40 <= avg_sleep <= 80 and pir_cnt == 0:
         return True
-    elif 40 <= avg_sleep <= 80 and pir_cnt > 1:
-        return False
+    return False
 
 
 def complicated_1(curs):  # 집에 사람이 있는데 평균보다 심박수가 확느려지거나 빨리 뛸 때 위험예측
@@ -409,9 +421,9 @@ def complicated_1(curs):  # 집에 사람이 있는데 평균보다 심박수가
     return False
 
 
-def complicated_2(curs, wake):  # 취침시간인데 비정상적 심박수 + 취침시간아닌데 비정상적 심박수
+def complicated_2(curs, sleep_wake):  # 취침시간인데 비정상적 심박수 + 취침시간아닌데 비정상적 심박수
     count = 0
-    if wake is True:
+    if sleep_wake is True:
         # 취침시간인데 비정상적 심박수
         low_bpm = 40
     else:
@@ -422,7 +434,7 @@ def complicated_2(curs, wake):  # 취침시간인데 비정상적 심박수 + �
     rows = curs.fetchall()
     show_heart = [row[0] for row in rows]
     for heart in show_heart:
-        if 0 < heart <= low_bpm or 80 <= heart:
+        if (0 < heart <= low_bpm) or 80 <= heart:
             count += 1
     if count >= 2:
         return True
